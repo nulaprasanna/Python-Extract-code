@@ -1,0 +1,11 @@
+*.ini
+multiprocess/config.ini
+*.log
+*.private
+__pycache__/
+multiprocess/__pycache__
+.ipynb_checkpoints/
+.vscode/
+logs/
+properties/config.ini
+orphan

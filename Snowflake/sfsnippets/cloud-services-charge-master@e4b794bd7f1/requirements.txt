@@ -1,0 +1,3 @@
+snowflake-connector-python
+hvac
+cx_Oracle

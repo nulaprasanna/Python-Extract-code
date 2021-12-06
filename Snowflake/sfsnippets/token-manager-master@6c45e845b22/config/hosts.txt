@@ -1,0 +1,23 @@
+[dataloader_dev]
+user = cgwedwadm
+host = cloudgw-dev-01
+svc_account = edw_datalake_svc
+file = /users/cgwedwadm/data_loader/config/ciscodev.us-east-1.conf
+key = TOKEN
+delimiter = ';'
+
+[dataloader_prod]
+user = cgwedwadm
+host = cloudgw-dev-01
+svc_account = edw_datalake_svc
+file = /users/cgwedwadm/data_loader/config/cisco.us-east-1.conf
+key = TOKEN
+delimiter = ';'
+
+[dataloader_stage]
+user = cgwedwadm
+host = cloudgw-dev-01
+svc_account = edw_datalake_svc
+file = /users/cgwedwadm/data_loader/config/ciscostage.us-east-1.conf
+key = TOKEN
+delimiter = ';'

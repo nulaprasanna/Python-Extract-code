@@ -1,0 +1,4 @@
+hvac
+snowflake-connector-python
+pyAesCrypt
+pandas

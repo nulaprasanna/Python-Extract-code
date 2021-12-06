@@ -1,0 +1,2 @@
+2019-11-07-10:40:06 - <snowflake.connector.connection.SnowflakeConnection object at 0x11c63b828>~qselect * from Marketing_it.test.demo~1~2019-11-06 14:15:22.467582
+2019-11-07-10:40:18 - <snowflake.connector.connection.SnowflakeConnection object at 0x11c63b828>~qselect * from Marketing_it.test.demo~1~2019-11-06 14:15:22.467582

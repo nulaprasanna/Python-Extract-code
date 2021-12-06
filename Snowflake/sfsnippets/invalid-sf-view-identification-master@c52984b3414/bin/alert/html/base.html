@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <style type="text/css">
+        body {
+            background-color:#ffffff;
+            margin: 0 !important;
+            padding: 0 !important;
+            /* width: 100% !important; */
+            color: #333;
+            font-family: 'Average Sans', sans-serif;
+            font-size: 14px;
+        }
+        table {border-collapse:collapse;width:750px}
+        td,tr{padding: 5px;}
+        a, a:link, a:visited {text-decoration: none; color: #00788a;}
+        a:hover {text-decoration: underline;}
+        h2,h2 a,h2 a:visited,h3,h3 a,h3 a:visited,h4,h5,h6,.t_cht {color:#000 !important;}
+        .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td {line-height: 100%;}
+        .ExternalClass {width: 100%;}
+
+       table.headerStyle {
+            font-size: 11pt; 
+            font-family: Arial;
+            border-collapse: collapse; 
+            border-spacing: 0.5rem;
+            max-width:650px;
+        }
+        table.mystyle {
+            font-size: 11pt; 
+            font-family: Arial;
+            border-collapse: collapse; 
+            border-spacing: 0.5rem;
+            border: 0px;
+            max-width:650px;
+        }
+        table.mystyle th {
+            background: #d5dbdb;
+        }
+        table.mystyle th,td{
+            padding: 5px;
+            text-overflow: ellipsis;
+            overflow: hidden; 
+            max-width: 160px; 
+            height: 1.2em; 
+        }
+        table.mystyle tr:hover {
+            background: #99c4ce;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#FFFFFF">
+            <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:13.5pt">
+                <td style="background:#F2F2F2;padding:0in 0in 0in 0in;height:13.5pt"></td>
+                </tr>
+                <tr style="mso-yfti-irow:1">
+                <td style="background:#F2F2F2;padding:0in 0in 0in 0in">
+                    <p class="MsoNormal" align="right" style="text-align:right;line-height:9.0pt;padding:10px;">
+                    <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black">Cisco
+                    Confidential</span>
+                    <o:p></o:p>
+                    </p>
+                </td>
+                </tr>
+                <tr style="mso-yfti-irow:2;height:9.0pt">
+                <td style="background:#F2F2F2;padding:0in 0in 0in 0in;height:9.0pt">
+                </td>
+                </tr>
+            <tr>
+                <td style="padding:0in 0in 0in 0in">
+                    <p style="margin:0;">
+                        <span style="color:black">
+                            <img width="100%" height="75" id="header" src="cid:image0" style="float:top;">
+                        </span>
+                        <o:p></o:p>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" valign="top">
+                    <table cellspacing="0" cellpadding="0" border="0" align="center">
+                        <tr>
+                            <td align="left" valign="top" style="padding:10px;">
+                                <!-- content will be used to add html elements if there is no extension of html or md -->
+                                {% block z_content%} 
+                                {{content}}
+                                {{md_content}}
+                                {% endblock %}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:13.5pt">
+                    <td style="background:#F2F2F2;padding:0in 0in 0in 0in;height:13.5pt">
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow:1">
+                    <td style="background:#F2F2F2;padding:0in 0in 0in 0in">
+                        <p class="MsoNormal" align="right" style="line-height:9.0pt;padding:10px;">
+                        <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black;float:left;">20</span><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;float:left;"><span style="color:black;float:left;  ">20 Cisco and/or its affiliates</span>.</span>
+                        <o:p></o:p>
+                        <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif;color:black;float:right;">
+                                <a href="http://www.cisco.com" target="_blank">
+                                    <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">Cisco.com</span>
+                                </a>
+                                <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;|&nbsp;</span>
+                                <a href="http://www.cisco.com/en/US/swassets/sw293/privacy_statement.html" target="_blank">
+                                    <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">Privacy Statement</span>
+                                </a>
+                                <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;|&nbsp;</span>
+                                <a href="http://www.cisco.com/en/US/swassets/sw293/trademark_statement.html" target="_blank">
+                                    <span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">Trademarks</span>
+                                </a>
+                        </span>
+                        <o:p></o:p>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="mso-yfti-irow:2;height:9.0pt">
+                    <td style="background:#F2F2F2;padding:0in 0in 0in 0in;height:9.0pt">
+                    </td>
+                </tr>
+        </tr>   
+    </table>
+    <p style="border-top: 1px solid #c6c6c6; color: #a9a9a9; margin-top: 50px; padding-top: 20px;font-size:13px; margin-bottom: 13px;">
+    </p>
+    <p style="color: #a9a9a9;margin-bottom: 13px;font-size:13px;">{{SenderInfoLine}}</p>
+</center>
+</body>
+
+</html>

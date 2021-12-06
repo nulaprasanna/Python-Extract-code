@@ -1,0 +1,15 @@
+-- Collect the column details from the eds repo IDed by a table. See EDS_DATA_CATALOG documentation for the ERD.
+select
+   CLMNS.*
+FROM
+    EDS_DATA_CATALOG.EDW_TABLE_COLUMN CLMNS
+WHERE
+        CLMNS.ENVIRONMENT_NAME = '$$ENVIRONMENT_NAME'
+    and
+        CLMNS.DB_INSTANCE_NAME = '$$DB_INSTANCE_NAME'
+	and
+		CLMNS.DB_SCHEMA_NAME = '$$DB_SCHEMA_NAME'
+	and
+		CLMNS.TABLE_NAME = '$$TABLE_NAME'
+ORDER BY
+    CLMNS.COLUMN_SEQUENCE

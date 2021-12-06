@@ -1,0 +1,28 @@
+{% extends 'base.html' %} 
+{% block z_content %}
+<tr>
+    <td align="left" valign="top" style="padding:10px;">
+        <p>
+            <h3>
+                <span style="color:black">
+                {{subheading}}
+                </span>
+            </h3>
+            <span style="color:black">
+                {{paragraph}}
+            </span>
+            <o:p></o:p>
+        </p>
+    </td>
+</tr>
+{{paragraph_h}}
+<tr>
+    <td align="left" valign="top" style="padding:10px;">
+        <h1>This is about(child) page</h1>
+        <p>
+            {{md_content}}
+            {{table}}
+        </p>       
+    </td>
+</tr>
+{% endblock %}
