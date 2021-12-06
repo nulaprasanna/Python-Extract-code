@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python Extract/Extract Queries_V1.6.1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python Extract/Informatica_Import (2)" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Python Extract/XML-SQL-Report" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../app/python">
+      <sourceFolder url="file://$MODULE_DIR$/../../app/python" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../app/python/DLLs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../app/python/Lib" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/../../app/python/venv" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../app/python/venv">
+      <sourceFolder url="file://$MODULE_DIR$/../../app/python/venv" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="Python 3.9 (venv)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
